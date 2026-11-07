@@ -77,6 +77,19 @@ A：参考 [docs/血碗2中英对照词表.md](docs/血碗2中英对照词表.md
 
 ---
 
+## 🔒 安全与透明
+
+本补丁**没有任何可执行程序（无 .exe/.dll）**，全部功能由两个 Windows 批处理脚本（.bat）完成，且**源码完全公开**——就在本仓库中，可直接逐行查看：
+
+- [`BB2ChineseMod/install.bat`](BB2ChineseMod/install.bat)：仅执行 备份 → 复制文件 三个步骤的纯 cmd 命令
+- [`BB2ChineseMod/uninstall.bat`](BB2ChineseMod/uninstall.bat)：仅执行 还原备份 → 删除补丁文件
+
+两个脚本**不联网、不上传任何数据、不修改系统设置、不触碰游戏以外任何文件**。不相信文字描述？点开上面链接看源码，或用任意杀毒软件/记事本打开检查——一共百余行，没有任何隐藏内容。
+
+仓库在 GitHub 与 Gitee 双平台同步发布，内容一致：
+- https://github.com/VONWEI13/Bloodbowl2-Chinese
+- https://gitee.com/VONWEI13/Bloodbowl2-Chinese
+
 ## 🔧 工作原理（给技术向用户）
 
 1. **语言文本**：游戏的本地化文本位于 `Data\DBToolDB\Localization\Default_loc_English.db`（Cyanide DSMGR 私有二进制格式）。本补丁按原格式重建该文件，将 11,368 条文本中的约 8,500 条替换为中文，其余保留原文；文中的 `$KEY` 内嵌引用已递归烘焙为最终文字。
@@ -101,6 +114,7 @@ A：参考 [docs/血碗2中英对照词表.md](docs/血碗2中英对照词表.md
 
 ## ⚖️ 授权与免责声明
 
+- 本补丁的脚本与译文以 [MIT License](LICENSE) 开源； bundled 中文字体为[文泉驿微米黑](http://wenq.org/)（Apache License 2.0，版权归其作者所有）。
 - 本补丁仅供学习交流与个人使用，请勿用于商业用途。
 - Blood Bowl 2 © Cyanide Studio / Focus Home Interactive，本补丁与官方无关。
 - 中文字体为 [文泉驿微米黑](http://wenq.org/)（Apache License 2.0）。
