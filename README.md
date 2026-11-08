@@ -2,6 +2,8 @@
 
 非官方《血碗2》(Blood Bowl 2) 简体中文汉化补丁。**不需要修改任何游戏本体文件结构**——游戏资源包(CPK)完全不动，以"松散文件覆盖"方式加载，随时可一键还原英文原版。
 
+需要繁体中文、日语、巴西葡萄牙语或土耳其语时，可使用 [BB2WorldLang 世界语言包](https://github.com/VONWEI13/Bloodbowl2-WorldLanguages/blob/main/README.md)。世界语言包完整收录本独立简体包的部署资源；本包的安装、卸载、说明和技术资料均完整保留，可独立使用。
+
 - 覆盖范围：界面、菜单、技能、规则、种族介绍、战役剧情、解说字幕、成就、商店、联赛系统、队名/球场名生成器等 **约 8,500 条文本**
 - 保留英文：球员随机姓名（保留战锤风味原名）、纯符号/网址
 - 术语依据《千锤百炼——血碗综合指南》《血碗队伍+技能资料》等中文资料集校订（附[中英对照词表](docs/血碗2中英对照词表.md)）
@@ -84,7 +86,7 @@ A：参考 [docs/血碗2中英对照词表.md](docs/血碗2中英对照词表.md
 - [`BB2ChineseMod/install.bat`](BB2ChineseMod/install.bat)：仅执行 备份 → 复制文件 三个步骤的纯 cmd 命令
 - [`BB2ChineseMod/uninstall.bat`](BB2ChineseMod/uninstall.bat)：仅执行 还原备份 → 删除补丁文件
 
-两个脚本**不联网、不上传任何数据、不修改系统设置、不触碰游戏以外任何文件**。不相信文字描述？点开上面链接看源码，或用任意杀毒软件/记事本打开检查——一共百余行，没有任何隐藏内容。
+两个脚本**不联网、不上传任何数据、不修改系统设置、不修改游戏目录以外的任何文件**。不相信文字描述？点开上面链接看源码，或用任意杀毒软件/记事本打开检查——一共百余行，没有任何隐藏内容。
 
 仓库在 GitHub 与 Gitee 双平台同步发布，内容一致：
 - https://github.com/VONWEI13/Bloodbowl2-Chinese
@@ -114,7 +116,7 @@ A：参考 [docs/血碗2中英对照词表.md](docs/血碗2中英对照词表.md
 
 ## ⚖️ 授权与免责声明
 
-- 本补丁的脚本与译文以 [MIT License](LICENSE) 开源； bundled 中文字体为[文泉驿微米黑](http://wenq.org/)（Apache License 2.0，版权归其作者所有）。
+- 本补丁的脚本与译文以 [MIT License](LICENSE) 开源；内置中文字体为[文泉驿微米黑](http://wenq.org/)（Apache License 2.0，版权归其作者所有）。
 - 本补丁仅供学习交流与个人使用，请勿用于商业用途。
 - Blood Bowl 2 © Cyanide Studio / Focus Home Interactive，本补丁与官方无关。
 - 中文字体为 [文泉驿微米黑](http://wenq.org/)（Apache License 2.0）。
